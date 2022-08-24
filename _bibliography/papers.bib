@@ -1,6 +1,18 @@
 ---
 ---
-
+@InProceedings{crowd_pbrl,
+author={Guoxi Zhang and Hisashi Kashima},
+title={Batch Reinforcement Learning from Crowds},
+booktitle={Machine Learning and Knowledge Discovery in Databases. Research Track},
+year={2022},
+publisher={Springer International Publishing},
+address={Cham},
+abstract={A shortcoming of batch reinforcement learning is its requirement for rewards in data, thus not applicable to tasks without reward functions. 
+Existing settings for the lack of reward, such as behavioral cloning, rely on optimal demonstrations collected from humans. Unfortunately, extensive expertise is required for ensuring optimality, which hinder the acquisition of large-scale data for complex tasks. 
+This paper addresses the lack of reward by learning a reward function from preferences between trajectories. Generating preferences only requires a basic understanding of a task, and it is faster than performing demonstrations. Thus, preferences can be collected at scale from non-expert humans using crowdsourcing. 
+This paper tackles a critical challenge that emerged when collecting data from non-expert humans: the noise in preferences. A novel probabilistic model is proposed for modelling the reliability of labels, which utilizes labels collaboratively. Moreover, the proposed model smooths the estimation with a learned reward function. 
+Evaluation on Atari datasets demonstrates the effectiveness of the proposed model, followed by an ablation study to analyze the relative importance of the proposed ideas.},
+}
 
 @inproceedings{rank_diff,
     abstract = {Pairwise rank aggregation (PRA) aims at learning a ranking from pairwise comparisons between objects that specify relative ordering of objects. The present study proposes the use of rank difference information for PRA, which characterizes the extent winners in paired comparisons beat their opponents. While such information can be effortlessly recognized by annotators, to our knowledge, it has not been utilized for PRA before. The challenge is three-fold: how to solicit such information, how to utilize it in rank aggregation, and how to overcome the noise from heterogeneous annotators. The present study proposes a new query for soliciting information about rank difference from annotators with limited cognitive burden. As prior methods for PRA abounds, an objective is to empower them with information on rank difference. To this end, the present study proposes a conservative learning objective that can be combined with many existing PRA algorithms in a straightforward manner. The third contribution is a new method for PRA called mixture of exponentials (MoE). Annotators from a heterogeneous population might have diverse views concerning rank difference. An annotator might be good at recognizing rank difference only for a subset of items but not the rest. This means that information about rank difference is likely to be perturbed. Unfortunately, such an object-dependent error pattern cannot be modeled with existing approaches. MoE assumes that each annotator uses a mixture of ranking functions in generating answers. The mixture components can capture object-related patterns in data. The present study evaluates the proposals with extensive experiments on both real and synthetic datasets. The results confirm the efficacy of the proposals and shed light on their practical usage.},
@@ -55,19 +67,3 @@ isbn = {978-3-319-93040-4},
   bibtex_show = {},
 pdf = {https://link.springer.com/chapter/10.1007/978-3-319-93040-4_7}
 }
-
-@misc{https://doi.org/10.48550/arxiv.2111.04279,
-  doi = {10.48550/ARXIV.2111.04279},
-  url = {https://arxiv.org/abs/2111.04279},
-  author = {Guoxi Zhang and Hisashi Kashima},
-  keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Batch Reinforcement Learning from Crowds},  
-  publisher = {arXiv},
-  year = {2021},
-  copyright = {arXiv.org perpetual, non-exclusive license},
-  abstract = {A shortcoming of batch reinforcement learning is its requirement for rewards in data, thus not applicable to tasks without reward functions. Existing settings for lack of reward, such as behavioral cloning, rely on optimal demonstrations collected from humans. Unfortunately, extensive expertise is required for ensuring optimality, which hinder the acquisition of large-scale data for complex tasks. This paper addresses the lack of reward in a batch reinforcement learning setting by learning a reward function from preferences. Generating preferences only requires a basic understanding of a task. Being a mental process, generating preferences is faster than performing demonstrations. So preferences can be collected at scale from non-expert humans using crowdsourcing. This paper tackles a critical challenge that emerged when collecting data from non-expert humans: the noise in preferences. A novel probabilistic model is proposed for modelling the reliability of labels, which utilizes labels collaboratively. Moreover, the proposed model smooths the estimation with a learned reward function. Evaluation on Atari datasets demonstrates the effectiveness of the proposed model, followed by an ablation study to analyze the relative importance of the proposed ideas.},
-  bibtex_show = {},
-  pdf = {https://arxiv.org/pdf/2111.04279.pdf}
-}
-
-

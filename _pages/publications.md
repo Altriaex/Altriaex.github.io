@@ -24,11 +24,11 @@ nav_order: 1
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @inproceedings[year={{y}}]%}
 {% endfor %}
-
+<!-- 
 <div class="publications">
 <h2>Preprints</h2>
 {%- for y in page.preprints_years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @misc[year={{y}}]%}
 {% endfor %}
-</div>
+</div>  -->
