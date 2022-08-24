@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description:
 journal_years: [2022]
-conference_years: [2018, 2017]
+conference_years: [2022, 2018, 2017]
 preprints_years: [2021]
 nav: true
 nav_order: 1
