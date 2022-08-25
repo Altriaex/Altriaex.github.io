@@ -18,6 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student in Graduate School of Informatics, Kyoto university, where I have the fortune to work with Prof. [Hisashi Kashima](https://hkashima.github.io/index.html). 
+I am a PhD student in Graduate School of Informatics, Kyoto university, where I have the fortune to work with Prof. [Hisashi Kashima](https://hkashima.github.io/index.html). I am interested in leveraging human guidance to train reinforcement learning agents and making these agents more interpretable.
 
-I am interested in leveraging human guidance to train reinforcement learning agents and making these agents more interpretable.
+In particular, I am working on preference-based reinforcement learning in offline setting, which aims at training agents that comply with human preferences using pre-collected experiences. 
