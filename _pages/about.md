@@ -3,7 +3,6 @@ layout: about
 title: About
 permalink: /
 subtitle: 
-
 profile:
   align: right
   image: prof_pic.jpg
