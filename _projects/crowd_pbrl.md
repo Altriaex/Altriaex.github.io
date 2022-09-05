@@ -2,7 +2,7 @@
 layout: page
 title: Batch Reinforcement Learning from Crowds
 description: This study investigates how to learn a reward function from possibly unreliable trajectory preferences collected from crowdworkers.
-img: assets/img/batch-reinforcement-learning-background.png
+img: assets/img/batch_reinforcement_learning_background.png
 importance: 1
 category: Research
 ---
