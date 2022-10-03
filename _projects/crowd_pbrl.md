@@ -7,7 +7,8 @@ importance: 1
 category: Research
 ---
 
-<h2>Overview</h2>
+## Overview
+
 A three-minute overview for this study is provided below. You are also welcome to read the [poster]({{ relative_url }}/assets/pdf/batch_reinforcement_learning_from_crowds_poster.pdf) and the paper on [arXiv](https://arxiv.org/abs/2111.04279).
 {% include youtubePlayer.html width="640" height="360" id="npJzZzaEDCA" %}
 
