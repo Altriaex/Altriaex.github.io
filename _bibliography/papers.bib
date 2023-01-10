@@ -1,46 +1,56 @@
----
----
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for 张国熙 at 2023-01-10 12:30:00 +0900 
 
 
-@InProceedings{behavior_estimate,
-author={Guoxi Zhang and Hisashi Kashima},
-title={(To Appear) Behavior Estimation from Multi-Source Data for Offline Reinforcement Learning},
-booktitle={Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence},
-year={2023},
-publisher={AAAI Press},
-address={Washington, DC, USA},
-abstract={},
-}	
+%% Saved with string encoding Unicode (UTF-8) 
 
-@article{state_imp,
-    abstract = {Preference-based reinforcement learning (PbRL) develops agents using human preferences. Due to its empirical success, it has prospect of benefiting humancentered applications. Meanwhile, previous work on PbRL overlooks interpretability, which is an indispensable element of ethical artificial intelligence (AI). While prior art for explainable AI offers some machinery, there lacks an approach to select samples to construct explanations. This becomes an issue for PbRL, as transitions relevant to task solving are often outnumbered by irrelevant ones. Thus, ad-hoc sample selection undermines the credibility of explanations. The present study proposes a framework for learning reward functions and state importance from preferences simultaneously. It offers a systematic approach for selecting samples when constructing explanations. Moreover, the present study proposes a perturbation analysis to evaluate the learned state importance quantitatively. Through experiments on discrete and continuous control tasks, the present study demonstrates the proposed framework's efficacy for providing interpretability without sacrificing task performance.},
-	author = {Guoxi Zhang and Hisashi Kashima},
+
+
+@article{Zhang:2023aa,
+	abstract = {Preference-based reinforcement learning (PbRL) develops agents using human preferences. Due to its empirical success, it has prospect of benefiting human-centered applications. Meanwhile, previous work on PbRL overlooks interpretability, which is an indispensable element of ethical artificial intelligence (AI). While prior art for explainable AI offers some machinery, there lacks an approach to select samples to construct explanations. This becomes an issue for PbRL, as transitions relevant to task solving are often outnumbered by irrelevant ones. Thus, ad-hoc sample selection undermines the credibility of explanations. The present study proposes a framework for learning reward functions and state importance from preferences simultaneously. It offers a systematic approach for selecting samples when constructing explanations. Moreover, the present study proposes a perturbation analysis to evaluate the learned state importance quantitatively. Through experiments on discrete and continuous control tasks, the present study demonstrates the proposed framework's efficacy for providing interpretability without sacrificing task performance.},
+	author = {Zhang, Guoxi and Kashima, Hisashi},
+	date = {2023/01/09},
+	doi = {10.1007/s10994-022-06295-5},
+	id = {Zhang2023},
+	isbn = {1573-0565},
 	journal = {Machine Learning},
-	title = {(To Appear) Learning State Importance for Preference-based Reinforcement Learning},
+	title = {Learning state importance for preference-based reinforcement learning},
+	url = {https://doi.org/10.1007/s10994-022-06295-5},
+	year = {2023},
+	bdsk-url-1 = {https://doi.org/10.1007/s10994-022-06295-5},
+	pdf = {https://rdcu.be/c245z},
+	bibtex_show = {}}
+
+@inproceedings{behavior_estimate,
+	address = {Washington, DC, USA},
+	author = {Guoxi Zhang and Hisashi Kashima},
+	booktitle = {Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence},
+	pdf = {https://arxiv.org/pdf/2211.16078.pdf},
+	publisher = {AAAI Press},
+	title = {(To Appear) Behavior Estimation from Multi-Source Data for Offline Reinforcement Learning},
+	year = {2023}}
+
+@inproceedings{crowd_pbrl,
+	abstract = {A shortcoming of batch reinforcement learning is its requirement for rewards in data, thus not applicable to tasks without reward functions. 
+	Existing settings for the lack of reward, such as behavioral cloning, rely on optimal demonstrations collected from humans. Unfortunately, extensive expertise is required for ensuring optimality, which hinder the acquisition of large-scale data for complex tasks. 
+	This paper addresses the lack of reward by learning a reward function from preferences between trajectories. Generating preferences only requires a basic understanding of a task, and it is faster than performing demonstrations. Thus, preferences can be collected at scale from non-expert humans using crowdsourcing. 
+	This paper tackles a critical challenge that emerged when collecting data from non-expert humans: the noise in preferences. A novel probabilistic model is proposed for modelling the reliability of labels, which utilizes labels collaboratively. Moreover, the proposed model smooths the estimation with a learned reward function. 
+	Evaluation on Atari datasets demonstrates the effectiveness of the proposed model, followed by an ablation study to analyze the relative importance of the proposed ideas.},
+	address = {Grenoble, France},
+	author = {Guoxi Zhang and Hisashi Kashima},
+	booktitle = {Machine Learning and Knowledge Discovery in Databases},
+	publisher = {Springer Cham},
+	title = {(To Appear) Batch Reinforcement Learning from Crowds},
 	year = {2022}}
 
-@InProceedings{crowd_pbrl,
-author={Guoxi Zhang and Hisashi Kashima},
-title={(To Appear) Batch Reinforcement Learning from Crowds},
-booktitle={Machine Learning and Knowledge Discovery in Databases},
-year={2022},
-publisher={Springer Cham},
-address={Grenoble, France},
-abstract={A shortcoming of batch reinforcement learning is its requirement for rewards in data, thus not applicable to tasks without reward functions. 
-Existing settings for the lack of reward, such as behavioral cloning, rely on optimal demonstrations collected from humans. Unfortunately, extensive expertise is required for ensuring optimality, which hinder the acquisition of large-scale data for complex tasks. 
-This paper addresses the lack of reward by learning a reward function from preferences between trajectories. Generating preferences only requires a basic understanding of a task, and it is faster than performing demonstrations. Thus, preferences can be collected at scale from non-expert humans using crowdsourcing. 
-This paper tackles a critical challenge that emerged when collecting data from non-expert humans: the noise in preferences. A novel probabilistic model is proposed for modelling the reliability of labels, which utilizes labels collaboratively. Moreover, the proposed model smooths the estimation with a learned reward function. 
-Evaluation on Atari datasets demonstrates the effectiveness of the proposed model, followed by an ablation study to analyze the relative importance of the proposed ideas.},
-}
-
 @inproceedings{rank_diff,
-    abstract = {Pairwise rank aggregation (PRA) aims at learning a ranking from pairwise comparisons between objects that specify relative ordering of objects. The present study proposes the use of rank difference information for PRA, which characterizes the extent winners in paired comparisons beat their opponents. While such information can be effortlessly recognized by annotators, to our knowledge, it has not been utilized for PRA before. The challenge is three-fold: how to solicit such information, how to utilize it in rank aggregation, and how to overcome the noise from heterogeneous annotators. The present study proposes a new query for soliciting information about rank difference from annotators with limited cognitive burden. As prior methods for PRA abounds, an objective is to empower them with information on rank difference. To this end, the present study proposes a conservative learning objective that can be combined with many existing PRA algorithms in a straightforward manner. The third contribution is a new method for PRA called mixture of exponentials (MoE). Annotators from a heterogeneous population might have diverse views concerning rank difference. An annotator might be good at recognizing rank difference only for a subset of items but not the rest. This means that information about rank difference is likely to be perturbed. Unfortunately, such an object-dependent error pattern cannot be modeled with existing approaches. MoE assumes that each annotator uses a mixture of ranking functions in generating answers. The mixture components can capture object-related patterns in data. The present study evaluates the proposals with extensive experiments on both real and synthetic datasets. The results confirm the efficacy of the proposals and shed light on their practical usage.},
-    author = {Guoxi Zhang and Jiyi Li and Hisashi Kashima},
-    booktitle = {Proceedings of the Ninth IEEE International Conference on Data Science and Advanced Analytics},
-    title = {(To Appear) Improving Pairwise Rank Aggregation via Querying for Rank Difference},
-    year = {2022}}
-
-
+	abstract = {Pairwise rank aggregation (PRA) aims at learning a ranking from pairwise comparisons between objects that specify relative ordering of objects. The present study proposes the use of rank difference information for PRA, which characterizes the extent winners in paired comparisons beat their opponents. While such information can be effortlessly recognized by annotators, to our knowledge, it has not been utilized for PRA before. The challenge is three-fold: how to solicit such information, how to utilize it in rank aggregation, and how to overcome the noise from heterogeneous annotators. The present study proposes a new query for soliciting information about rank difference from annotators with limited cognitive burden. As prior methods for PRA abounds, an objective is to empower them with information on rank difference. To this end, the present study proposes a conservative learning objective that can be combined with many existing PRA algorithms in a straightforward manner. The third contribution is a new method for PRA called mixture of exponentials (MoE). Annotators from a heterogeneous population might have diverse views concerning rank difference. An annotator might be good at recognizing rank difference only for a subset of items but not the rest. This means that information about rank difference is likely to be perturbed. Unfortunately, such an object-dependent error pattern cannot be modeled with existing approaches. MoE assumes that each annotator uses a mixture of ranking functions in generating answers. The mixture components can capture object-related patterns in data. The present study evaluates the proposals with extensive experiments on both real and synthetic datasets. The results confirm the efficacy of the proposals and shed light on their practical usage.},
+	author = {Guoxi Zhang and Jiyi Li and Hisashi Kashima},
+	booktitle = {Proceedings of the Ninth IEEE International Conference on Data Science and Advanced Analytics},
+	title = {(To Appear) Improving Pairwise Rank Aggregation via Querying for Rank Difference},
+	year = {2022}}
 
 @article{PACKWOOD2022100265,
 	abstract = {Materials chemistry is being profoundly influenced by the uptake of machine learning methodologies. Machine learning techniques, in combination with established techniques from computational physics, promise to accelerate the discovery of new materials by elucidating complex structure--property relationships from massive material databases. Despite exciting possibilities, further methodological developments call for a greater synergism between materials chemists, physicists, and engineers on one side, with computer science and math majors on the other. In this review, we provide a non-exhaustive account of machine learning in materials chemistry for computer scientists and applied mathematicians, with an emphasis on molecule datasets and materials chemistry problems. The first part of this review provides a tutorial on how to prepare such datasets for subsequent model building, with an emphasis on the construction of feature vectors. We also provide a self-contained introduction to density functional theory, a method from computational physics which is widely used to generate datasets and compute response variables. The second part reviews two machine learning methodologies which represent the status quo in materials chemistry at present -- kernelized machine learning and Bayesian machine learning -- and discusses their application to real datasets. In the third part of the review, we introduce some emerging machine learning techniques which have not been widely adopted by materials scientists and therefore present potential avenues for computer science and applied math majors. In the final concluding section, we discuss some recent machine learning-based approaches to real materials discovery problems and speculate on some promising future directions.},
@@ -49,11 +59,11 @@ Evaluation on Atari datasets demonstrates the effectiveness of the proposed mode
 	keywords = {Materials chemistry, Kernelized machine learning, Density functional theory, Bayesian optimization, Ensemble methods, Reinforcement learning, Federated learning},
 	pages = {100265},
 	title = {Machine Learning in Materials Chemistry: An Invitation},
-	url = {https://www.sciencedirect.com/science/article/pii/S2666827022000093},
+	pdf = {https://www.sciencedirect.com/science/article/pii/S2666827022000093},
 	volume = {8},
-	bibtex_show = {},
-	year = {2022}}
-
+	year = {2022},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S2666827022000093},
+	bibtex_show = {}}
 
 @inproceedings{10.1007/978-3-319-71246-8_15,
 	abstract = {Multi-view text data consist of texts from different sources. For instance, multilingual Wikipedia corpora contain articles in different languages which are created by different group of users. Because multi-view text data are often created in distributed fashion, information from different sources may not be consistent. Such inconsistency introduce noise to analysis of such kind of data. In this paper, we propose a probabilistic topic model for multi-view data, which is robust against noise. The proposed model can also be used for detecting anomalies. In our experiments on Wikipedia data sets, the proposed model is more robust than existing multi-view topic models in terms of held-out perplexity.},
@@ -61,11 +71,11 @@ Evaluation on Atari datasets demonstrates the effectiveness of the proposed mode
 	author = {Guoxi Zhang and Tomoharu Iwata and Hisashi Kashima},
 	booktitle = {Machine Learning and Knowledge Discovery in Databases},
 	pages = {238--250},
+	pdf = {https://www.researchgate.net/profile/Guoxi-Zhang/publication/319902451_Robust_Multi-view_Topic_Modeling_by_Incorporating_Detecting_Anomalies/links/5c4cc388458515a4c7433eb6/Robust-Multi-view-Topic-Modeling-by-Incorporating-Detecting-Anomalies.pdf},
 	publisher = {Springer Cham},
 	title = {Robust Multi-view Topic Modeling by Incorporating Detecting Anomalies},
-  	pdf = {https://www.researchgate.net/profile/Guoxi-Zhang/publication/319902451_Robust_Multi-view_Topic_Modeling_by_Incorporating_Detecting_Anomalies/links/5c4cc388458515a4c7433eb6/Robust-Multi-view-Topic-Modeling-by-Incorporating-Detecting-Anomalies.pdf},
-  	bibtex_show = {},
-	year = {2017}}
+	year = {2017},
+	bibtex_show = {}}
 
 @inproceedings{10.1007/978-3-319-93040-4_7,
 	abstract = {We address the problem of reducing dimensionality for labeled data. Our objective is to achieve better class separation in latent space. Existing nonlinear algorithms rely on pairwise distances between data samples, which are generally infeasible to compute or store in the large data limit. In this paper, we propose a parametric nonlinear algorithm that employs a spherical mixture model in the latent space. The proposed algorithm attains grand efficiency in reducing data dimensionality, because it only requires distances between data points and cluster centers. In our experiments, the proposed algorithm achieves up to 44 times better efficiency while maintaining similar efficacy. In practice, it can be used to speedup k-NN classification or visualize data points with their class structure.},
@@ -73,8 +83,8 @@ Evaluation on Atari datasets demonstrates the effectiveness of the proposed mode
 	author = {Guoxi Zhang and Tomoharu Iwata and Hisashi Kashima},
 	booktitle = {Advances in Knowledge Discovery and Data Mining},
 	pages = {77--88},
+	pdf = {https://link.springer.com/chapter/10.1007/978-3-319-93040-4_7},
 	publisher = {Springer Cham},
 	title = {On Reducing Dimensionality of Labeled Data Efficiently},
-	bibtex_show = {},
-	pdf = {https://link.springer.com/chapter/10.1007/978-3-319-93040-4_7},
-	year = {2018}}
+	year = {2018},
+	bibtex_show = {}}
