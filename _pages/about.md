@@ -17,6 +17,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student in Graduate School of Informatics, Kyoto university, where I have the fortune to work with Prof. [Hisashi Kashima](https://hkashima.github.io/index.html). I am interested in leveraging human guidance to train reinforcement learning agents. In particular, I have been working on preference-based reinforcement learning, which aims at training agents that comply with human preferences. 
+I am research engineer at [Beijing Institute for General Artificial Intelligence](https://www.bigai.ai). Previously, I was a PhD student in Graduate School of Informatics, Kyoto university, where I have the fortune to work with Prof. [Hisashi Kashima](https://hkashima.github.io/index.html).
 
-I am actively seeking researcher roles starting from Oct. 2023. 
+I am interested in leveraging human guidance to train reinforcement learning agents. In particular, I have been working on preference-based reinforcement learning, which aims at training agents that comply with human preferences. 

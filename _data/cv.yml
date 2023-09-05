@@ -11,7 +11,7 @@
   contents:
     - title: PhD in Informatics
       institution: Kyoto University, Kyoto, Japan
-      year: 2020
+      year: 2018 - 2023
     - title: Master of Computational Data Science
       institution: Carnegie Mellon University, Pittsburgh, PA, USA
       year: 2018 - 2019
@@ -25,6 +25,9 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Engineer
+      institution: Beijing Institute for General Artificial Intelligence
+      year: 2023 - Now
     - title: Machine Learning Engineer Intern
       institution: Tencent Holdings Ltd., Beijing, China
       year: 2020 - 2021
@@ -35,5 +38,5 @@
 - title: Activities
   type: time_table
   contents:
-    - title: Program Committee of PAKDD 2023, ECML PKDD 2023.
+    - title: Program Committee of PAKDD 2023, ECML PKDD 2023, NeurIPS 2023.
       year: 2023
