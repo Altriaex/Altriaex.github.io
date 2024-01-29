@@ -19,4 +19,4 @@ social: true  # includes social icons at the bottom of the page
 
 I am senior research engineer at [Beijing Institute for General Artificial Intelligence](https://www.bigai.ai). Previously, I was a PhD student in Graduate School of Informatics, Kyoto university, where I have the fortune to work with Prof. [Hisashi Kashima](https://hkashima.github.io/index.html).
 
-I am interested in leveraging human guidance to train reinforcement learning agents. In particular, I have been working on preference-based reinforcement learning, which aims at training agents that comply with human preferences. 
+I am interested in leveraging human guidance for reinforcement learning. In particular, I have been working on preference-based reinforcement learning, which aims at training agents that comply with human preferences. 
