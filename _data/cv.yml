@@ -38,5 +38,7 @@
 - title: Activities
   type: time_table
   contents:
-    - title: Program Committee of PAKDD 2023, ECML PKDD 2023, NeurIPS 2023.
+    - title: Program Committee of PAKDD, ECML PKDD, NeurIPS
       year: 2023
+    - title: Program Committee of PAKDD, ICLR, ICML
+      year: 2024
