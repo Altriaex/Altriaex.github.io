@@ -8,9 +8,9 @@ profile:
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>Graduate School of Informatics, Kyoto University</p>
-    <p>Yoshidahonmachi, Sakyo Ward,</p>
-    <p>Kyoto, Japan 606-8501</p>
+    <p>Beijing Institute for General Artificial Intelligence,</p>
+    <p>2 Yiheyuan Road, Haidian,</p>
+    <p>Beijing, China 100089.</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
