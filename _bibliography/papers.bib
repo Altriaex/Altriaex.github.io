@@ -7,6 +7,20 @@
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+@InProceedings{pmlr-v235-luo24j,
+    title = 	 {End-to-End Neuro-Symbolic Reinforcement Learning with Textual Explanations},
+    author =       {Luo, Lirui and Zhang, Guoxi and Xu, Hongming and Yang, Yaodong and Fang, Cong and Li, Qing},
+    booktitle = 	 {Proceedings of the Forty-First International Conference on Machine Learning},
+    pages = 	 {33533--33557},
+    year = 	 {2024},
+    publisher =    {PMLR},
+    location = {Vienna, Austria},
+    pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/luo24j/luo24j.pdf},
+    url = 	 {https://proceedings.mlr.press/v235/luo24j.html},
+    abstract = 	 {Neuro-symbolic reinforcement learning (NS-RL) has emerged as a promising paradigm for explainable decision-making, characterized by the interpretability of symbolic policies. NS-RL entails structured state representations for tasks with visual observations, but previous methods cannot refine the structured states with rewards due to a lack of efficiency. Accessibility also remains an issue, as extensive domain knowledge is required to interpret symbolic policies. In this paper, we present a neuro-symbolic framework for jointly learning structured states and symbolic policies, whose key idea is to distill the vision foundation model into an efficient perception module and refine it during policy learning. Moreover, we design a pipeline to prompt GPT-4 to generate textual explanations for the learned policies and decisions, significantly reducing users’ cognitive load to understand the symbolic policies. We verify the efficacy of our approach on nine Atari tasks and present GPT-generated explanations for policies and decisions.},
+    bibtex_show = {},
+    website = {https://ins-rl.github.io}
+}
 
 @inproceedings{crowd_pbrl,
 	abstract = {A shortcoming of batch reinforcement learning is its requirement for rewards in data, thus not applicable to tasks without reward functions. 
@@ -45,7 +59,8 @@
 	pdf = {https://rdcu.be/c245z},
 	title = {Learning state importance for preference-based reinforcement learning},
 	year = {2023},
-	bibtex_show = {}}
+	bibtex_show = {},
+    website = {http://guoxizhang.com/identify-critical-states/}}
 
 @inproceedings{behavior_estimate,
 	abstract = {Offline reinforcement learning (RL) have received rising interest due to its appealing data efficiency. The present study addresses behavior estimation, a task that lays the foundation of many offline RL algorithms. Behavior estimation aims at estimating the policy with which training data are generated. In particular, this work considers a scenario where the data are collected from multiple sources. In this case, neglecting data heterogeneity, existing approaches for behavior estimation suffers from behavior misspecification. To overcome this drawback, the present study proposes a latent variable model to infer a set of policies from data, which allows an agent to use as behavior policy the policy that best describes a particular trajectory. This model provides with a agent fine-grained characterization for multi-source data and helps it overcome behavior misspecification. This work also proposes a learning algorithm for this model and illustrates its practical usage via extending an existing offline RL algorithm. Lastly, with extensive evaluation this work confirms the existence of behavior misspecification and the efficacy of the proposed model.},
@@ -72,7 +87,7 @@
 @inproceedings{unknown_interference,
 	abstract = {Causal inference is a powerful tool for effective decision-making in various areas, such as medicine and commerce. For example, it allows businesses to determine whether an advertisement has a role in influencing a customer to buy the advertised product. The influence of an advertisement on a particular customer is considered the advertisement's individual treatment effect (ITE). This study estimates ITE from data in which units are potentially connected. In this case, the outcome for a unit can be influenced by treatments to other units, resulting in inaccurate ITE estimation, a phenomenon known as interference. Existing methods for ITE estimation that address interference rely on knowledge of connections between units. However, these methods are not applicable when this connection information is missing due to privacy concerns, a scenario known as unknown interference. To overcome this limitation, this study proposes a method that designs a graph structure learner, which infers the structure of interference by imposing an $L_0$-norm regularization on the number of potential connections. The inferred structure is then fed into a graph convolution network to model interference received by units. We carry out extensive experiments on several datasets to verify the effectiveness of the proposed method in addressing unknown interference.},
 	author = {Xiaofeng Lin and Guoxi Zhang and Xiaotian Lu and Hisashi Kashima},
-	booktitle = {Advances in Knowledge Discovery and Data Mining (To Appear)},
+	booktitle = {Advances in Knowledge Discovery and Data Mining},
 	title = {Treatment Effect Estimation Under Unknown Interference},
 	year = {2024},
 	bibtex_show = {}}

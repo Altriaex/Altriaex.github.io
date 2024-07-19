@@ -25,7 +25,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research Engineer
+    - title: Senior Research Engineer
       institution: Beijing Institute for General Artificial Intelligence
       year: 2023 - Now
     - title: Machine Learning Engineer Intern
@@ -38,7 +38,7 @@
 - title: Activities
   type: time_table
   contents:
-    - title: Program Committee of PAKDD, ECML PKDD, NeurIPS
+    - title: Program Committee of PAKDD, ECML-PKDD, NeurIPS
       year: 2023
-    - title: Program Committee of PAKDD, ICLR, ICML
+    - title: Program Committee of PAKDD, ICLR, ICML, ECML-PKDD
       year: 2024
