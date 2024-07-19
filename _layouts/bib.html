@@ -28,7 +28,12 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <div class="title">{{entry.title}}
+            {%- if entry.badge %}
+            <a>&nbsp;</a><span class="abbr"><abbr class="badge">{{entry.badge}}</abbr></span>
+          {%- endif %}
+          </div>
+          
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
