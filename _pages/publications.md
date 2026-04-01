@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description:
 journal_years: [2023, 2022]
-conference_years: [2024, 2023, 2022, 2018, 2017]
+conference_years: [2026, 2024, 2023, 2022, 2018, 2017]
 preprints_years: [2023]
 nav: true
 nav_order: 1
@@ -32,4 +32,3 @@ nav_order: 1
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @inproceedings[year={{y}}]%}
 {% endfor %}
-
