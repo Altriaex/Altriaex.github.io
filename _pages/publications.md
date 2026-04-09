@@ -5,17 +5,17 @@ title: Publications
 description:
 journal_years: [2023, 2022]
 conference_years: [2026, 2025, 2024, 2023, 2022, 2018, 2017]
-preprints_years: [2023]
+preprints_years: [2026]
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
-<!--<div class="publications">
+<div class="publications">
  <h2>Preprints</h2>
 {%- for y in page.preprints_years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @misc[year={{y}}]%}
-{% endfor %}</div>-->
+{% endfor %}</div>
 
 
 <div class="publications">
